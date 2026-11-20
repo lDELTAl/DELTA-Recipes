@@ -1,0 +1,37 @@
+name: delta
+description: "A simple pharmaceutical products catalog for Rama Pharma - university Flutter exercise."
+# The next line prevents accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Basic icons that come with Flutter (we do not really need extra packages).
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  # Required so that the Material icons (Icons.medication, etc.) are included.
+  uses-material-design: true
+
+  # ---------------------------------------------------------------------
+  # IMAGES
+  # Leave this commented while "assets/images/" is empty, so the app runs
+  # perfectly without any picture.
+  #
+  # When you add the 10 pictures, delete the two "#" marks below, save the
+  # file, and press "Pub get" (or run: flutter pub get).
+  #
+  assets:
+    - assets/images/
+  # ---------------------------------------------------------------------
