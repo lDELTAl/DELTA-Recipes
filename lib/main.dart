@@ -47,14 +47,14 @@ void main() {
       prepTime: 900,
     ),
     Recipe(
-      name: 'Berry Yogurt Parfait',
-      imageUrl: 'assets/images/BerryYogurtParfait.jpg',
+      name: 'YogurtParfait',
+      imageUrl: 'assets/images/YogurtParfait.jpg',
       description:
           'Creamy yogurt layered with granola, fresh strawberries, and blackberries in a glass.',
       prepTime: 300,
     ),
     Recipe(
-      name: 'Seared Steak with Asparagus',
+      name: 'Seared Steak',
       imageUrl: 'assets/images/SearedSteakWithAsparagus.jpg',
       description:
           'Juicy sliced steak seared with black pepper, served with tender asparagus and roasted cherry tomatoes.',
